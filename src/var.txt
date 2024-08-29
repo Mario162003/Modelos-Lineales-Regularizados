@@ -1,0 +1,123 @@
+Aquí te proporciono una explicación de cada una de las variables mencionadas en el conjunto de datos, organizadas por categorías:
+
+### **Identificadores y Población Total**
+- **fips**: Código FIPS (Federal Information Processing Standards) que identifica de manera única a cada condado en los EE.UU.
+- **TOT_POP**: Población total del condado.
+
+### **Distribución por Edad**
+- **0-9**: Número de personas en el rango de edad de 0 a 9 años.
+- **0-9 y/o % of total pop**: Porcentaje de la población total que tiene entre 0 y 9 años.
+- **10-19**: Número de personas en el rango de edad de 10 a 19 años.
+- **10-19 y/o % of total pop**: Porcentaje de la población total que tiene entre 10 y 19 años.
+- **20-29**: Número de personas en el rango de edad de 20 a 29 años.
+- **20-29 y/o % of total pop**: Porcentaje de la población total que tiene entre 20 y 29 años.
+- **30-39**: Número de personas en el rango de edad de 30 a 39 años.
+- **30-39 y/o % of total pop**: Porcentaje de la población total que tiene entre 30 y 39 años.
+- **40-49**: Número de personas en el rango de edad de 40 a 49 años.
+- **40-49 y/o % of total pop**: Porcentaje de la población total que tiene entre 40 y 49 años.
+- **50-59**: Número de personas en el rango de edad de 50 a 59 años.
+- **50-59 y/o % of total pop**: Porcentaje de la población total que tiene entre 50 y 59 años.
+- **60-69**: Número de personas en el rango de edad de 60 a 69 años.
+- **60-69 y/o % of total pop**: Porcentaje de la población total que tiene entre 60 y 69 años.
+- **70-79**: Número de personas en el rango de edad de 70 a 79 años.
+- **70-79 y/o % of total pop**: Porcentaje de la población total que tiene entre 70 y 79 años.
+- **80+**: Número de personas mayores de 80 años.
+- **80+ y/o % of total pop**: Porcentaje de la población total que tiene más de 80 años.
+
+### **Distribución por Raza/Etnicidad**
+- **White-alone pop**: Población total que se identifica como "blanco" solamente.
+- **% White-alone**: Porcentaje de la población total que se identifica como "blanco" solamente.
+- **Black-alone pop**: Población total que se identifica como "negro o afroamericano" solamente.
+- **% Black-alone**: Porcentaje de la población total que se identifica como "negro o afroamericano" solamente.
+- **Native American/American Indian-alone pop**: Población total que se identifica como "nativo americano o indígena de Alaska" solamente.
+- **% NA/AI-alone**: Porcentaje de la población total que se identifica como "nativo americano o indígena de Alaska" solamente.
+- **Asian-alone pop**: Población total que se identifica como "asiático" solamente.
+- **% Asian-alone**: Porcentaje de la población total que se identifica como "asiático" solamente.
+- **Hawaiian/Pacific Islander-alone pop**: Población total que se identifica como "nativo hawaiano o de otras islas del Pacífico" solamente.
+- **% Hawaiian/PI-alone**: Porcentaje de la población total que se identifica como "nativo hawaiano o de otras islas del Pacífico" solamente.
+- **Two or more races pop**: Población total que se identifica como de "dos o más razas".
+- **% Two or more races**: Porcentaje de la población total que se identifica como de "dos o más razas".
+
+### **Estimaciones de Población y Migración**
+- **POP_ESTIMATE_2018**: Estimación de la población para 2018.
+- **N_POP_CHG_2018**: Cambio numérico en la población durante 2018.
+- **GQ_ESTIMATES_2018**: Estimaciones de la población en cuarteles de gobierno (p. ej., militares, prisiones) para 2018.
+- **R_birth_2018**: Tasa de nacimientos en 2018.
+- **R_death_2018**: Tasa de muertes en 2018.
+- **R_NATURAL_INC_2018**: Tasa de incremento natural de la población (nacimientos menos muertes) en 2018.
+- **R_INTERNATIONAL_MIG_2018**: Tasa de migración internacional en 2018.
+- **R_DOMESTIC_MIG_2018**: Tasa de migración doméstica (entre condados/estados) en 2018.
+- **R_NET_MIG_2018**: Tasa de migración neta (internacional + doméstica) en 2018.
+
+### **Educación**
+- **Less than a high school diploma 2014-18**: Número de personas con menos de un diploma de secundaria durante el periodo 2014-2018.
+- **High school diploma only 2014-18**: Número de personas con solo un diploma de secundaria durante el periodo 2014-2018.
+- **Some college or associate's degree 2014-18**: Número de personas con algún estudio universitario o un título de asociado durante el periodo 2014-2018.
+- **Bachelor's degree or higher 2014-18**: Número de personas con un título de licenciatura o superior durante el periodo 2014-2018.
+- **Percent of adults with less than a high school diploma 2014-18**: Porcentaje de adultos con menos de un diploma de secundaria durante el periodo 2014-2018.
+- **Percent of adults with a high school diploma only 2014-18**: Porcentaje de adultos con solo un diploma de secundaria durante el periodo 2014-2018.
+- **Percent of adults completing some college or associate's degree 2014-18**: Porcentaje de adultos con algún estudio universitario o un título de asociado durante el periodo 2014-2018.
+- **Percent of adults with a bachelor's degree or higher 2014-18**: Porcentaje de adultos con un título de licenciatura o superior durante el periodo 2014-2018.
+
+### **Pobreza e Ingresos**
+- **POVALL_2018**: Número total de personas en situación de pobreza en 2018.
+- **PCTPOVALL_2018**: Porcentaje de la población en situación de pobreza en 2018.
+- **PCTPOV017_2018**: Porcentaje de la población menor de 17 años en situación de pobreza en 2018.
+- **PCTPOV517_2018**: Porcentaje de la población entre 5 y 17 años en situación de pobreza en 2018.
+- **MEDHHINC_2018**: Ingreso mediano del hogar en 2018.
+- **CI90LBINC_2018**: Límite inferior del intervalo de confianza del 90% para el ingreso mediano del hogar en 2018.
+- **CI90UBINC_2018**: Límite superior del intervalo de confianza del 90% para el ingreso mediano del hogar en 2018.
+- **Civilian_labor_force_2018**: Fuerza laboral civil total en 2018.
+- **Employed_2018**: Número de personas empleadas en 2018.
+- **Unemployed_2018**: Número de personas desempleadas en 2018.
+- **Unemployment_rate_2018**: Tasa de desempleo en 2018.
+- **Median_Household_Income_2018**: Ingreso mediano del hogar en 2018.
+- **Med_HH_Income_Percent_of_State_Total_2018**: Ingreso mediano del hogar como porcentaje del total estatal en 2018.
+
+### **Recursos de Salud**
+- **Active Physicians per 100000 Population 2018 (AAMC)**: Número de médicos activos por cada 100,000 personas en 2018.
+- **Total Active Patient Care Physicians per 100000 Population 2018 (AAMC)**: Número total de médicos en activo que brindan atención al paciente por cada 100,000 personas en 2018.
+- **Active Primary Care Physicians per 100000 Population 2018 (AAMC)**: Número de médicos de atención primaria por cada 100,000 personas en 2018.
+- **Active Patient Care Primary Care Physicians per 100000 Population 2018 (AAMC)**: Número de médicos de atención primaria en activo que brindan atención al paciente por cada 100,000 personas en 2018.
+- **Active General Surgeons per 100000 Population 2018 (AAMC)**: Número de cirujanos generales activos por cada 100,000 personas en 2018.
+- **Active Patient Care General Surgeons per 100000 Population 2018 (AAMC)**: Número de cirujanos generales en activo que brindan atención al paciente por cada 100,000 personas en 2018.
+- **
+
+Total nurse practitioners (2019)**: Número total de enfermeras practicantes en 2019.
+- **Total physician assistants (2019)**: Número total de asistentes médicos en 2019.
+- **Total Hospitals (2019)**: Número total de hospitales en 2019.
+- **Internal Medicine Primary Care (2019)**: Número de médicos de atención primaria en medicina interna en 2019.
+- **Family Medicine/General Practice Primary Care (2019)**: Número de médicos de atención primaria en medicina familiar o práctica general en 2019.
+- **Total Specialist Physicians (2019)**: Número total de médicos especialistas en 2019.
+- **ICU Beds_x**: Número de camas en unidades de cuidados intensivos (UCI).
+
+### **Salud y Prevalencia de Enfermedades**
+- **anycondition_prevalence**: Prevalencia de cualquier condición médica.
+- **anycondition_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de cualquier condición médica.
+- **anycondition_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de cualquier condición médica.
+- **anycondition_number**: Número de personas con cualquier condición médica.
+- **Obesity_prevalence**: Prevalencia de obesidad.
+- **Obesity_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de obesidad.
+- **Obesity_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de obesidad.
+- **Obesity_number**: Número de personas con obesidad.
+- **Heart disease_prevalence**: Prevalencia de enfermedades cardíacas.
+- **Heart disease_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de enfermedades cardíacas.
+- **Heart disease_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de enfermedades cardíacas.
+- **Heart disease_number**: Número de personas con enfermedades cardíacas.
+- **COPD_prevalence**: Prevalencia de la enfermedad pulmonar obstructiva crónica (COPD).
+- **COPD_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de COPD.
+- **COPD_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de COPD.
+- **COPD_number**: Número de personas con COPD.
+- **diabetes_prevalence**: Prevalencia de diabetes.
+- **diabetes_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de diabetes.
+- **diabetes_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de diabetes.
+- **diabetes_number**: Número de personas con diabetes.
+- **CKD_prevalence**: Prevalencia de enfermedad renal crónica (CKD).
+- **CKD_Lower 95% CI**: Límite inferior del intervalo de confianza del 95% para la prevalencia de CKD.
+- **CKD_Upper 95% CI**: Límite superior del intervalo de confianza del 95% para la prevalencia de CKD.
+- **CKD_number**: Número de personas con CKD.
+
+### **Código Urbano/Rural**
+- **Urban_rural_code**: Código que clasifica al condado como urbano o rural.
+
+Estas variables ofrecen una rica base de datos para analizar las relaciones entre los factores socio demográficos, los recursos de salud y la prevalencia de ciertas condiciones médicas en los condados de EE.UU.
